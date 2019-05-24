@@ -1,0 +1,275 @@
+html, body, header, main, nav, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+h1, h2, p, a, li {
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #000;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 0 0 32px 0;
+}
+
+h2 {
+    color: #000;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    padding: 0 0 32px 0;
+}
+
+p {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+ul {
+    list-style: none;
+  }
+
+header {
+    background: white;
+    width: 1200px;
+    height: 71px;
+    margin: 0 auto;
+}
+
+footer {
+    background: white;
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.whiteText {
+    color: #fff;
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.menuBlock {
+    width: 239px;
+    height: 56px;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.menuLogo {
+    width: 239px;
+    height: auto;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+main {
+    background: white;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -14px;
+}
+
+.mainPromo {
+    background: url(img/background.png) no-repeat;
+    width: 1200px;
+    height: 509px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTeaser {
+    width: auto;
+    padding: 58px 0 51px 0;
+    text-align: center;
+}
+
+.mainLine {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.mainLineReasonone, .mainLineReasontwo, .mainLineUsp {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainLineReasonone {
+    background: #81B3D2;
+    padding: 43px 0 50px 0;
+    color: #fff;
+}
+
+.mainLineUsp {
+    background: transparent;
+    padding: 60px 0 85px 0;
+}
+
+.mainLineReasontwo {
+    background: #eee;
+    padding: 43px 0 50px 0;
+}
+
+.temp {
+    background: #eee;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerBlock {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerBlock h1 {
+    padding: 0 0;
+}
+
+.socialItem{
+    background: #81B3D2;
+    width: 48px;
+    height: 48px;
+    margin: 0 0 0 6px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.socialItem:first-child {
+    margin: 0 0;
+}
+
+.listing {
+    width: 100%;
+    min-height: auto;
+}
+
+.listingLeft {
+    max-width: 800px;
+    height: 150px;
+    padding: 30px 0 30px 72px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.listingLeft img{
+    width: 135px;
+    height: 90px;
+    float: left;
+}
+
+.listingRight {
+    max-width: 300px;
+    height: 150px;
+    padding: 30px 72px 30px 0;
+    box-sizing: border-box;
+    float: right;
+}
+
+
+
+.listingLeftBlock {
+    width: auto;
+    height: auto;
+    padding: 0 0 0 165px;
+}
+
+.listingLeftBlock h1 {
+    padding: 0 0 7px 0;
+}
+
+
+.listingLeftBLockSub {
+    width: auto;
+    height: auto;
+    padding: 0 6px 0 0;
+    float: left;
+}
+
+.listingLeftBLockSub p{
+    padding: 0 0 15px 0;
+}
+
+.listingRightBlock {
+
+}
+
+.tagButtonBlue {
+    background: #81B3D2;
+    width: auto;
+    height: auto;
+    padding: 3px 17px;
+}
+
+.tagButtonBrown {
+    background: #766357;
+    width: auto;
+    height: auto;
+    padding: 3px 17px;
+}
+
+.devider {
+    width: 100%;
+    height: 1px;
+    background: #efefef;
+}
