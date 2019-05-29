@@ -21,7 +21,7 @@ body {
     background: #F2F2F2;
 }
 
-h1, h2, p, a, li {
+h1, h2, h3, p, a, li {
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
 }
@@ -38,6 +38,14 @@ h2 {
     color: #000;
     font-size: 30px;
     line-height: 36px;
+    font-weight: bold;
+    padding: 0 0 32px 0;
+}
+
+h3 {
+    color: #000;
+    font-size: 21px;
+    line-height: 25px;
     font-weight: bold;
     padding: 0 0 32px 0;
 }
@@ -74,7 +82,6 @@ footer {
     height: 120px;
     margin: 0 auto;
     display: flex;
-    flex-flow: row;
 }
 
 .whiteText {
@@ -82,10 +89,7 @@ footer {
 }
 
 .menu {
-    width: auto;
-    height: auto;
     display: flex;
-    flex-flow: row;
 }
 
 .menuBlock {
@@ -97,7 +101,6 @@ footer {
 
 .menuLogo {
     width: 239px;
-    height: auto;
     text-align: center;
     padding: 0 0 0 0;
 }
@@ -105,7 +108,6 @@ footer {
 main {
     background: white;
     width: 1200px;
-    height: auto;
     margin: 0 auto;
     margin-top: -14px;
 }
@@ -120,21 +122,16 @@ main {
 }
 
 .mainTeaser {
-    width: auto;
     padding: 58px 0 51px 0;
     text-align: center;
 }
 
 .mainLine {
-    width: auto;
-    height: auto;
     display: flex;
-    flex-flow: row;
 }
 
 .mainLineReasonone, .mainLineReasontwo, .mainLineUsp {
     width: 400px;
-    height: auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -171,15 +168,13 @@ main {
 
 .footerBlock {
     width: 400px;
-    height: auto;
     display: flex;
-    flex-flow: row;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.footerBlock h1 {
+.footerBlock h3 {
     padding: 0 0;
 }
 
@@ -189,7 +184,6 @@ main {
     height: 48px;
     margin: 0 0 0 6px;
     display: flex;
-    flex-flow: row;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -201,11 +195,10 @@ main {
 
 .listing {
     width: 100%;
-    height: auto;
     padding: 30px 72px 30px 72px;
     display: flex;
-    flex-flow: row;
     box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5; 
 }
 
 .listing img{
@@ -214,19 +207,15 @@ main {
 }
 
 .listingBlock {
-    width: auto;
-    height: auto;
     padding: 0 0 0 30px;
 }
 
-.listingBlock h1 {
+.listingBlock h3 {
     padding: 0 0 7px 0;
 }
 
 
 .listingBLockSub {
-    width: auto;
-    height: auto;
     padding: 0 6px 0 0;
     float: left;
 }
@@ -236,8 +225,6 @@ main {
 }
 
 .listingRight {
-    width: auto;
-    height: auto;
     flex-grow: 1;
     display: flex;
     flex-flow: column;
@@ -256,22 +243,16 @@ main {
 
 .tagButtonBlue {
     background: #81B3D2;
-    width: auto;
-    height: auto;
     padding: 3px 17px;
 }
 
 .tagButtonBrown {
     background: #766357;
-    width: auto;
-    height: auto;
     padding: 3px 17px;
 }
 
 .tagButtonGrey {
     background: #F2F2F2;
-    width: auto;
-    height: auto;
     padding: 3px 17px;
     align-self: flex-end;
     margin: 42px 0 0 0;
